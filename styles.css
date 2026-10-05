@@ -1,0 +1,107 @@
+.seccion h2 {
+
+    color: #3131a3;
+
+}
+
+.contenedor-timeline {
+  position: relative;
+  border-left: 1px solid #3131a3; 
+  padding-left: 24px;             
+  margin-left: 10px;           
+}
+
+.cita {
+
+    background-color:#0b4c7c;
+    color: white;
+    border-radius: 16px;
+    padding: 20px 28px;
+    max-width: 500px;
+    margin: 20px auto;
+
+}
+
+.etiquetas {
+    padding: 0;
+    flex-wrap: wrap; 
+    gap: 10px;      
+    display: flex;         
+    color:#0b4c7c;
+    list-style-type: none; 
+}
+
+.etiquetas li{
+  background-color: #ffffff; 
+  color: #0b4c7c;           
+  font-weight: bold;         
+  font-family: sans-serif;
+  font-size: 0.95rem;
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+
+.sidebar{
+
+    background-color: aliceblue;
+    border-radius: 12px;
+    height: fit-content; 
+}
+
+.foto{
+
+    background-color: white;
+    overflow: hidden;   
+    display: flex;    
+    border-radius: 2%;   
+}
+
+.curriculum{
+    display: grid;
+    grid-template-columns: 300px 1fr; 
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cabecera{
+
+    background-image: url(../data/images/mountain.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.cabecera h1{
+    color: #14143a;
+    font-size: 3.5rem;
+}
+
+.cabecera span{
+    color: #2b6dc4;
+}
+
+.cabecera .subtitulo {
+    color: #334155; 
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+
+}
+
+.cabecera .meta {
+    color: #1a3355;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 0;
+    list-style-type: none; 
+    gap: 10px;      
+    display: flex;         
+
+}
+
+.perfil{
+    margin: 0;
+    background-color: #204f8b;
+    color: white;
+}
