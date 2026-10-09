@@ -1,0 +1,349 @@
+.seccion h2 {
+
+    color: #3131a3;
+
+}
+
+.contenedor-timeline {
+  position: relative;
+  border-left: 1px solid #3131a3; 
+  padding-left: 24px;             
+  margin-left: 10px;           
+}
+
+.cita {
+
+    background-color:#0b4c7c;
+    color: white;
+    border-radius: 16px;
+    padding: 20px 28px;
+    max-width: 500px;
+    margin: 20px auto;
+
+}
+
+.etiquetas {
+    padding: 0;
+    flex-wrap: wrap; 
+    gap: 10px;      
+    display: flex;         
+    color:#0b4c7c;
+    list-style-type: none; 
+}
+
+.etiquetas li{
+    background-color: #ffffff; 
+    color: #0b4c7c;           
+    font-weight: bold;         
+    font-family: sans-serif;
+    font-size: 0.95rem;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 0.7rem;
+
+}
+
+.sidebar{
+
+    background-color: aliceblue;
+    border-radius: 12px;
+    height: fit-content; 
+}
+
+.sidebar h2{
+    color: #004b87;
+    font-family: sans-serif;   
+    font-size: 0.95rem;       
+    font-weight: 700;         
+    text-transform: uppercase; 
+    letter-spacing: 0.5px;     
+    margin-top: 30px;          
+    margin-bottom: 15px;      
+    margin-left: 10px; 
+}
+
+.sidebar dt{
+
+    color: grey;
+    text-transform: uppercase; 
+    font-size: 0.75rem;       
+    margin-left: 10px; 
+    font-weight: bold;
+    margin-top: 5px;
+
+}
+.sidebar dd{
+
+    color: black;
+    font-size: 0.75rem;       
+    margin-left: 10px; 
+    margin-top: 5px;
+}
+
+.foto{
+
+    background-color: white;
+    overflow: hidden;   
+    display: flex;    
+    border-radius: 2%;   
+}
+
+.curriculum{
+    display: grid;
+    grid-template-columns: 300px 1fr; 
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.cabecera{
+
+    background-image: url(../data/images/mountain.png);
+    background-size: cover;
+    background-position: center;
+
+}
+.cabecera h1{
+    color: #14143a;
+    font-size: 3.5rem;
+}
+
+.cabecera span{
+    color: #2b6dc4;
+}
+
+.cabecera .subtitulo {
+    color: #334155; 
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0 0 20px 0;
+
+}
+
+.cabecera .meta {
+    color: #1a3355;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin: 0;
+    list-style-type: none; 
+    gap: 10px;      
+    display: flex;         
+
+}
+
+.perfil{
+    margin: 0;
+    background-color: #204f8b;
+    color: white;
+}
+
+hr{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.competencias li{
+
+    list-style-type: none; 
+    
+}
+
+
+.competencias .barra-nivel{
+    color: darkblue;
+    font-weight: bold;
+
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    color: #222;
+}
+
+.principal {
+    min-width: 0;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.bloques {
+    padding: 0 10px;
+}
+
+.sobretitulo {
+    color: #0b4c7c;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cabecera {
+    padding: 40px;
+}
+
+.cabecera h1 {
+    margin: 10px 0;
+}
+
+.meta {
+    padding: 0;
+}
+
+.meta li {
+    list-style-type: none;
+}
+
+.perfil {
+    padding: 25px 30px;
+    margin: 30px 0;
+    border-radius: 12px;
+}
+
+.perfil h2 {
+    margin-top: 5px;
+}
+
+.perfil p {
+    line-height: 1.6;
+}
+
+.experiencia {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.experiencia h3 {
+    color: #0b4c7c;
+    margin-bottom: 5px;
+}
+
+.lugar-fecha {
+    color: grey;
+    font-size: 0.9rem;
+    margin-top: 0;
+}
+
+.experiencia ul {
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+.insignia {
+    background-color: #0b4c7c;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.formacion {
+    padding: 0;
+    list-style-type: none;
+}
+
+.formacion li {
+    border-left: 3px solid #3131a3;
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    background-color: #f5f7fa;
+}
+
+.formacion h3 {
+    margin: 5px 0;
+    color: #0b4c7c;
+}
+
+.numero {
+    color: #3131a3;
+    font-weight: bold;
+}
+
+.centro {
+    color: grey;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.dos-columnas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+.logros {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.idiomas {
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.idiomas li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.idiomas strong {
+    color: #0b4c7c;
+}
+
+.enfrentamientos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.enfrentamientos th,
+.enfrentamientos td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.enfrentamientos th {
+    color: #0b4c7c;
+}
+
+.enfrentamientos tr:nth-child(even) {
+    background-color: #f5f7fa;
+}
+
+.pie {
+    margin-top: 40px;
+    padding: 20px;
+    text-align: center;
+    color: grey;
+    font-size: 0.8rem;
+    border-top: 1px solid #ddd;
+}
+
+@media (max-width: 800px) {
+
+    .curriculum {
+        grid-template-columns: 1fr;
+    }
+
+    .dos-columnas {
+        grid-template-columns: 1fr;
+    }
+
+    .cabecera h1 {
+        font-size: 2.5rem;
+    }
+}
